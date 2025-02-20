@@ -29,53 +29,55 @@
                 <tr>
                     <td>
                         <label for="firstName">First Name</label> <br>
-                        <input type="text" id="firstName" name="firstName">
+                        <input type="text" id="firstName" name="firstName" required>
                     </td>
                     <td>
                         <label for="lastName">Last Name</label> <br>
-                        <input type="text" id="lastName" name="lastName">
+                        <input type="text" id="lastName" name="lastName" required>
                     </td>
                 </tr>
 
                 <tr>
                     <td>
                         <label for="gender">Gender</label><br>
-                        <select name="gender" id="gender">
+                        <select name="gender" id="gender" required>
                             <option value="">Select here</option>
+                            <option value="female"> Female</option>
+                            <option value="male">Male</option>
                         </select>
                     </td>
                     <td>
                         <label for="dob">Date of Birth</label><br>
-                        <input type="date" id="dob" name="dob">
+                        <input type="date" id="dob" name="dob" required>
                     </td>
                 </tr>
 
                 <tr>
                     <td>
-                        <label for="weigh">Weight (KG)</label>
-                        <input type="text" id="weight" name="weight" placeholder="Enter weight">
+                        <label for="weight">Weight (KG)</label>
+                        <input type="text" id="weight" name="weight" placeholder="Enter weight" required>
                     </td>
                     <td>
                         <label for="height">Height (CM)</label> <br>
-                        <input type="text" id="height" name="height" placeholder="Enter height here..">
+                        <input type="text" id="height" name="height" placeholder="Enter height here.." required>
                     </td>
                 </tr>
 
                 <tr>
                     <td>
                         <label for="email">Email</label> <br>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </td>
                     <td>
                         <label for="phone">Phone</label> <br>
-                        <input type="tel" id="phone" name="phone">
+                        <input type="tel" id="phone" name="phone" required>
                     </td>
                 </tr>
 
                 <tr>
                     <td colspan="2">
                         <label for="email">Activity level</label> <br>
-                        <select name="activity" id="activity">
+                        <select name="activity" id="activity" required>
                             <option value="">Select here</option>
                         </select>
                     </td>
@@ -84,7 +86,7 @@
                 <tr>
                     <td colspan="2">
                         <label for="password">Password</label> <br>
-                        <input type="password" id="psw" name="password">
+                        <input type="password" id="psw" name="password" required>
                     </td>
                 </tr>
                 <tr>
